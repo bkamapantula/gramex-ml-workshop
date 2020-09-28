@@ -17,44 +17,16 @@ const model_list = {
       'value': 'sklearn.linear_model.PassiveAggressiveClassifier'
     },
     {
-      'label': 'SVC',
-      'value': 'sklearn.svm.SVC'
-    },
-    {
-      'label': 'Nu-SVC',
-      'value': 'sklearn.svm.NuSCV'
-    },
-    {
       'label': 'Linear SVC',
       'value': 'sklearn.svm.LinearSVC'
-    },
-    {
-      'label': 'Nearest Neighbors',
-      'value': 'sklearn.neighbors.KNeighborsClassifier'
     },
     {
       'label': 'Gaussian NB',
       'value': 'sklearn.naive_bayes.GaussianNB'
     },
     {
-      'label': 'Bernoulli NB',
-      'value': 'sklearn.naive_bayes.BernoulliNB'
-    },
-    {
-      'label': 'Multinomial NB',
-      'value': 'sklearn.naive_bayes.MultinomialNB'
-    },
-    {
       'label': 'Decision Tree',
       'value': 'sklearn.tree.DecisionTreeClassifier'
-    },
-    {
-      'label': 'Random Forests',
-      'value': 'sklearn.ensemble.RandomForestClassifier'
-    },
-    {
-      'label': 'Neural Networks',
-      'value': 'sklearn.neural_network.MLPClassifier'
     }
   ],
   value_key: 'value',
